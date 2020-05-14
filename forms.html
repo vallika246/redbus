@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms information</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <section id="left">
+  <section id="right">
+    <fieldset>
+      <legend>REGISTRATION FORM</legend>
+        <form>
+         <ol>
+          <li>
+           <label for="username">USERNAME:</label>
+            <input type="text"  placeholder="enter your name"  id="username" name="username" 
+            required minlength="5" maxlength="10" pattern="[A-Za-z0-9]+"
+            value="pravallika">
+          </li>
+        <br>
+         <li>
+            <label for="password">PASSWORD:</label>
+            <input type="password"  placeholder="enter your password"  id="password" name="password"
+            required minlength="5" maxlength="10">  
+         </li>
+         <br>
+        <li>
+            <label for="male">MALE:</label>
+            <input type="radio" id="male" name="gender">
+
+            <label for="female">FEMALE:</label>
+            <input type="radio" id="female" name="gender">
+        </li>
+        <br>
+        <li>
+            <label for="languages">LANGUAGES KNOWN:</label>
+            <input type="checkbox" name="languages" checked>JAVA:
+            <input type="checkbox" name="languages" checked>JS:
+            <input type="checkbox" name="languages" >ANGULAR:
+            <input type="checkbox" name="languages" >REACT:
+        </li>
+        <br>
+        <li>
+           <label>LANGUAGES KNOWN:</label> 
+           <select>
+               <option value="java" selected>java</option>
+               <option value="js" >js</option>
+               <option value="python">python</option>
+               <option value="ds">ds</option>
+           </select>
+        </li>
+        <br>
+        <li>
+            <label>LANGUAGES KNOWN:</label> 
+            <input type="text" list="lang" placeholder="search some language here">
+            <datalist id="lang">
+                <option value="java">java</option>
+                <option value="js" >js</option>
+                <option value="python">python</option>
+                <option value="ds">ds</option>
+            </datalist>
+        </li>
+        <br>
+        <li>
+            <label>RANGE:</label>
+            <input type="range" min="0" max="10" step="2">
+        </li>
+        <br>
+        <li>
+            <label>EMAIL:</label>
+            <input type="email" placeholder="enter email">
+        </li>
+        <br>
+        <li>
+            <label>NUMBER:</label>
+            <input type="number" min="0" max="10">
+        </li>
+        <br>
+        <li>
+            <label>TEL:</label>
+            <input type="tel" placeholder="ur telephone no">
+            <!--tel is working in safari browser only-->
+        </li>
+        <br>
+        <li>
+            <label>COLOR:</label>
+            <input type="color">
+        </li>
+        <br>
+        <li>
+            <label>URL:</label>
+            <input type="url" placeholder="enter ur url">
+        </li><br>
+        <li>
+            <label>SEARCH:</label>
+            <input type="search" placeholder="new way to search">
+        </li><br>
+        <li>
+            <label>DATE:</label>
+            <input type="date" placeholder="date">
+        </li><br>
+        <li>
+            <label>DATE:</label>
+            <input type="datetime-local" placeholder="date">
+        </li>
+        <br>
+        <li>
+            <label>MONTH:</label>
+            <input type="month" placeholder="month">
+        </li>
+        <br>
+        <li>
+            <label>WEEK:</label>
+            <input type="week" placeholder="week">
+        </li>
+        <br>
+        <li>
+            <label>TIME:</label>
+            <input type="time" placeholder="time">
+        </li>
+        <br>
+        <li>
+            <label>HIDDEN:</label>
+            <input type="hidden">
+        </li>
+        <br>
+        <li>
+            <label>FILE UPLOAD:</label>
+            <input type="file" placeholder="upload the file">
+        </li>
+        <br>
+        <li>
+            <label>ADDRESS:</label>
+            <textarea cols="10" rows="12"></textarea>
+        </li>
+        <br>
+        <li>
+            <label>SUBMIT:</label>
+            <input type="submit"  value="submit">
+        </li>
+        <br>
+        <li>
+            <label>RESET:</label>
+            <input type="reset">
+        </li>
+        </ol>
+      </form>
+      </fieldset>
+  </section>  
+</body>
+</html>

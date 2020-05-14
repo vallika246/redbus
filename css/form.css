@@ -1,0 +1,17 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url('../images/beach-731156_960_720.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+#right{
+    padding: 50px;
+    background-color:gainsboro;
+    width: 40%;
+    border: 5px solid red;
+    border-radius: 5px;
+    float: right;
+}
+
